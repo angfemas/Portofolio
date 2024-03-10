@@ -1,0 +1,23 @@
+/* navbar */
+.navbar-brand {
+  font-family: viga;
+  font-size: 30px;
+}
+/* desktop version */
+@media (min-width: 992px) {
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #0b63dc;
+    border-radius: 50%;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+}
+#afa987

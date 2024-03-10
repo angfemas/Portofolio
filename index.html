@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- fonts start -->
+    <link
+      class="navbar-brand"
+      href="https://fonts.googleapis.com/css2?family=Viga&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@1,700&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fonts end -->
+
+    <title>Femas| Homepage</title>
+    <!-- feather -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- featherend -->
+  </head>
+  <body>
+    <!--nav star-->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Femas<span>rendi</span>.</a>
+      <div class="navbar-nav">
+        <a href="#HOME">HOME</a>
+        <a href="#ABOUT">ABOUT</a>
+        <a href="#PROJECT">PROJECT</a>
+        <a href="#CONTACT">CONTACT</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+      <!-- search form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- search form  end -->
+    </nav>
+    <!--nav end-->
+    <!-- first layout start -->
+    <div id="layout">
+      <div class="container-fluid bg-dark text-light">
+        <!-- carousel start -->
+        <div
+          id="carouselExampleInterval"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="Assets/carousel2.png"
+                class="d-block w-100"
+                alt="xxx"
+                style="height: 500px"
+              />
+              <div class="carousel-caption">
+                <h5>Project arduino</h5>
+                <p>Project arduino yang di bangun secara ugal ugalan.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="Assets/carousel2.png"
+                class="d-block w-100"
+                alt="xxx"
+                style="height: 500px"
+              />
+              <div class="carousel-caption">
+                <h5>Second slide label</h5>
+                <p>
+                  Some representative placeholder content for the second slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- carousel end -->
+        <div id="profil">
+          <div class="row text-center align-items-center">
+            <div class="d-block" style="height: 45vh">
+              <img
+                src="Assets/pas_foto-removebg-preview.png"
+                class="mt-4"
+                width="100"
+                height="100"
+                alt="layout1"
+                style="border-radius: 50%"
+              />
+
+              <h2>FEMAS RENDI AS</h2>
+              <p>WELCOME TO MY PORTFOLIO</p>
+              <div class="social">
+                <a href="https://github.com/angfemas" id="github"
+                  ><i data-feather="github"></i
+                ></a>
+                <a href="https://www.youtube.com/@vemasrendi" id=" youtube"
+                  ><i data-feather="youtube"></i
+                ></a>
+                <a href="https://www.instagram.com/pemasrendi/" id="instagram"
+                  ><i data-feather="instagram"></i
+                ></a>
+                <a href="#" id="facebook"><i data-feather="facebook"></i></a>
+              </div>
+
+              <a href="#about-me" class="btn btn-outline-success mb-5 mt-5"
+                >ABOUT</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- card setion start -->
+    <section id="project">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>My project</h2>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <img
+                  src="Assets/project clap switch.jpg"
+                  class="card-img-top"
+                  alt="project1"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">clap switch project</h5>
+                  <p class="card-text">
+                    Tugas project semester 1 teknik informatika,pelita bangsa
+                    pembuatan clap switch menggunakan arduino.
+                  </p>
+                  <a href="#" class="btn btn-primary">Detail</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <img
+                  src="Assets/wp4561985-asus-tuf-gaming-wallpapers.png"
+                  class="card-img-top"
+                  alt="project2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <img
+                  src="Assets/wp4561985-asus-tuf-gaming-wallpapers.png"
+                  class="card-img-top"
+                  alt="project3"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- card setion end -->
+
+    <!-- footer start -->
+
+    <footer>
+      <div class="footer bg-dark">
+        <div class="bg-dark text-light">
+          <p>&copy;2024 Femasrendi.</p>
+          <a href="#" id="facebook"><i data-feather="facebook"></i></a>
+          <a href="https://www.youtube.com/@vemasrendi" id=" youtube"
+            ><i data-feather="youtube"></i
+          ></a>
+          <a href="https://www.instagram.com/pemasrendi/" id="instagram"
+            ><i data-feather="instagram"></i
+          ></a>
+          <a href="#" id="github"><i data-feather="github"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <!-- feather star -->
+    <script>
+      feather.replace();
+    </script>
+    <!-- feather end -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <!--my javascript-->
+    <script src="js/script.js"></script>
+    <script>
+      function toggleMenu() {
+        var navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("show");
+      }
+    </script>
+  </body>
+</html>
